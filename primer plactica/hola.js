@@ -1,1 +1,12 @@
-console.log("hola mundo");
+import Auto from "./Auto.js";
+let auto1 = new Auto( "Ford", 2000, "Rojo", 100);
+let auto2 = new Auto( "Nissan", 2010, "AZUL");
+let auto3 = new Auto( "Toyota", 2018 );
+auto1.Encender();
+auto1.Avanzar(50, 1.5);
+auto1.Apagar();
+auto1.Avanzar(50, 1.5);
+auto2.Encender();
+auto2.Apagar();
+auto3.Encender();
+auto3.Apagar();
